@@ -1,0 +1,133 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #eef2f7;
+    color: #333;
+}
+
+/* Header */
+header {
+    background-color: #1f2937;
+    color: white;
+    padding: 15px 30px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 15px;
+    font-size: 15px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Sections */
+section {
+    width: 85%;
+    margin: 20px auto;
+}
+
+/* Card Style (common for all sections) */
+section {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+}
+
+/* Headings */
+h2 {
+    margin-bottom: 15px;
+    color: #1f2937;
+}
+
+/* Form */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+input:focus {
+    border-color: #2563eb;
+    outline: none;
+}
+
+/* Button */
+button {
+    width: 120px;
+    padding: 10px;
+    background-color: #2563eb;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #1d4ed8;
+}
+
+/* Weather Cards Container */
+section:nth-of-type(2) {
+    display: flex;
+    gap: 20px;
+}
+
+/* Individual Card */
+article {
+    flex: 1;
+    background: #f9fafb;
+    padding: 15px;
+    border-radius: 8px;
+    border: 1px solid #e5e7eb;
+    text-align: center;
+}
+
+/* Table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #2563eb;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f1f5f9;
+}
+
+/* Footer */
+footer {
+    background-color: #1f2937;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+}
